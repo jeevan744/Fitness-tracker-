@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness and Wellness Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Fitness and Wellness Tracker</h1>
+
+  <!-- Workout Tracker -->
+  <section id="workout">
+    <h2>Workout Tracker</h2>
+    <form id="workout-form">
+      <input type="text" id="exercise" placeholder="Exercise Name" required>
+      <input type="number" id="sets" placeholder="Sets" required>
+      <input type="number" id="reps" placeholder="Reps" required>
+      <button type="submit">Add Workout</button>
+    </form>
+    <ul id="workout-list"></ul>
+  </section>
+
+  <!-- Meditation App -->
+  <section id="meditation">
+    <h2>Meditation</h2>
+    <button onclick="startMeditation()">Start Guided Meditation</button>
+  </section>
+
+  <!-- Nutrition Planner -->
+  <section id="nutrition">
+    <h2>Nutrition Planner</h2>
+    <form id="nutrition-form">
+      <input type="text" id="food" placeholder="Food Item" required>
+      <input type="number" id="calories" placeholder="Calories" required>
+      <button type="submit">Add Food</button>
+    </form>
+    <ul id="nutrition-list"></ul>
+  </section>
+
+  <!-- Water Intake Tracker -->
+  <section id="water-intake">
+    <h2>Water Intake Tracker</h2>
+    <p>Total Glasses: <span id="water-count">0</span></p>
+    <button onclick="addWater()">Add a Glass</button>
+  </section>
+
+  <!-- Sleep Tracker -->
+  <section id="sleep-tracker">
+    <h2>Sleep Tracker</h2>
+    <form id="sleep-form">
+      <input type="number" id="hours" placeholder="Hours Slept" required>
+      <button type="submit">Add Record</button>
+    </form>
+    <ul id="sleep-list"></ul>
+  </section>
+
+  <!-- Mental Health Journal -->
+  <section id="mental-health">
+    <h2>Mental Health Journal</h2>
+    <form id="journal-form">
+      <textarea id="mood" placeholder="How are you feeling today?" required></textarea>
+      <button type="submit">Add Entry</button>
+    </form>
+    <ul id="journal-list"></ul>
+  </section>
+
+  <!-- Yoga Platform -->
+  <section id="yoga">
+    <h2>Yoga Platform</h2>
+    <button onclick="showYogaPose()">Show Random Pose</button>
+    <p id="yoga-pose"></p>
+  </section>
+
+  <!-- Medical Appointment Scheduler -->
+  <section id="medical-scheduler">
+    <h2>Medical Scheduler</h2>
+    <form id="appointment-form">
+      <input type="text" id="doctor" placeholder="Doctor's Name" required>
+      <input type="date" id="appointment-date" required>
+      <button type="submit">Schedule</button>
+    </form>
+    <ul id="appointment-list"></ul>
+  </section>
+
+  <!-- Allergy Tracker -->
+  <section id="allergy-tracker">
+    <h2>Allergy Tracker</h2>
+    <form id="allergy-form">
+      <input type="text" id="allergen" placeholder="Allergen" required>
+      <textarea id="symptoms" placeholder="Symptoms" required></textarea>
+      <button type="submit">Add Log</button>
+    </form>
+    <ul id="allergy-list"></ul>
+  </section>
+
+  <!-- Pregnancy Tracker -->
+  <section id="pregnancy-tracker">
+    <h2>Pregnancy Tracker</h2>
+    <form id="pregnancy-form">
+      <input type="date" id="due-date" required>
+      <button type="submit">Track</button>
+    </form>
+    <p id="pregnancy-info"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
