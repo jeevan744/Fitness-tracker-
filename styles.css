@@ -7,7 +7,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background: url('https://unsplash.com/photos/woman-standing-surrounded-by-exercise-equipment-CQfNt66ttZM') no-repeat center center;
+    background: url('gym1.jpg') no-repeat center center;
     background-size: cover; /* Ensures the background image covers the entire screen without distortion */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
     color: #fff;
@@ -22,7 +22,7 @@
   
   /* Section Styles */
   section {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
