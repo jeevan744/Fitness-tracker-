@@ -7,7 +7,7 @@
   
   body {
     font-family: Arial, sans-serif;
-    background: url('gym1.jpg') no-repeat center center;
+    background: url('https://unsplash.com/photos/woman-standing-surrounded-by-exercise-equipment-CQfNt66ttZM') no-repeat center center;
     background-size: cover; /* Ensures the background image covers the entire screen without distortion */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
     color: #fff;
